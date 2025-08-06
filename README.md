@@ -1,2 +1,19 @@
 # City-Map-Navigation
-CityMap is a Java-based program that simulates a city’s road map using graph data structures. The system allows users to manage intersections and roads interactively, supporting operations like adding/removing intersections, checking for paths between points, and listing all reachable intersections from a given location. 
+
+## Project Overview
+CityMap is a Java application that simulates a city map using graph data structures. It allows users to add and remove intersections and roads, view the map, check connectivity between intersections, and explore reachable areas.
+
+## Features
+- Add or remove intersections (nodes)
+- Add or remove roads (edges) with customizable weights.
+- View the current map with all connections.
+- Check if a path exists between two intersections.
+- List all reachable intersections from a given starting point.
+- Supports both directed and undirected graphs (default is undirected).
+
+## Concepts Used
+- HashMap for graph representation.
+- Depth-First Search (DFS) for pathfinding and reachability.
+- Encapsulation via inner Edge class.
+- Interactive menu-driven interface.
+- Clean input handling with validation.
