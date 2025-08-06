@@ -13,7 +13,7 @@ CityMap is a Java application that simulates a city map using graph data structu
 
 ## Concepts Used
 - HashMap for graph representation.
-- Depth-First Search (DFS) for pathfinding and reachability.
-- Encapsulation via inner Edge class.
+- Depth-First Search for pathfinding and reachability.
+- Encapsulation of Edge class.
 - Interactive menu-driven interface.
 - Clean input handling with validation.
